@@ -10,6 +10,7 @@ import Productdetails from "./Productdetails/Productdetails";
 import BookingForm from "./BookingForm/BookingForm";
 import Aboutus from "./Aboutus/Aboutus";
 import Estimate from "./Estimate/Estimate";
+import UserDashboard from "./UserDashboard/UserDashboard";
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/Booking-Form" component={BookingForm} />
           <Route exact path="/About-us" component={Aboutus} />
           <Route exact path="/estimate" component={Estimate} />
+          <Route exact path="/Dashboard" component={UserDashboard} />
 
 
 
